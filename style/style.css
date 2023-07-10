@@ -1,9 +1,13 @@
 style{
   font-family: 'Work Sans', sans-serif;
 }
+*{
+  margin: 0;
+}
+
 .btn-primary{
 background-color: #e55473;
-border: 1px solid black;
+border: none;
 color: white;
 text-align: center;
 padding: 15px 30px;
@@ -12,6 +16,7 @@ display: inline-block;
 font-size: 16px;
 border-radius: 5px;
 cursor: pointer;
+margin-top: 15px;
 }
 /* banner section */
 .banner{
@@ -25,28 +30,40 @@ cursor: pointer;
   padding: 0px 140px;
   padding-top: 50px;
 }
-.banner-content{
+.banner-content {
   padding: 0px 140px;
-  font-size: 20px;
+  font-size: 30px;
 }
+
 .banner-content p{
-  font-size:15px;
+  margin-top: 15px;
+  font-size:18px;
 }
 /* featured section */
 .featured{
   text-align: center;
   padding-top: 78px;
   padding-bottom: 80px;
+  
+}
+.featured h1{
+  font-size: 40px;
+  font-weight: 600;
 }
 .featured p{
-  font-size: 15px;
+  font-size: 18px;
+  padding-top: 10px;
+
 }
 .featured-img{
   display: flex;
   margin: 50px 100px;
+  justify-content: space-between;
 }
-.featured-content1{
+.featured-content1 p{
   margin: auto;
+  text-decoration: underline;
+  font-size: 18px;
 }
 .featured-img1{
   background-color: #f2dee8;
@@ -55,8 +72,11 @@ cursor: pointer;
  
 
 }
-.feature-content2{
+.feature-content2 p{
   margin: auto;
+  text-decoration: underline;
+  font-size: 18px;
+  
 }
 .featured-img2{
   background-color: #daf0f1;
@@ -65,9 +85,12 @@ cursor: pointer;
 
  
 }
-.feature-content3{
+.feature-content3 p{
   margin: auto;
+  text-decoration: underline;
+  font-size: 18px;
 }
+
 .featured-img3{
   background-color: #e4ecdc;
   padding: 30px 50px 0px 50px;

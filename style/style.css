@@ -1,0 +1,33 @@
+style{
+  font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+background-color: #e55473;
+border: 1px solid black;
+color: white;
+text-align: center;
+padding: 15px 30px;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.banner{
+  background-color: #fdeef1;
+  display: flex;
+  align-items: center;
+  
+}
+.flower-pic{
+  width: 500px;
+  padding: 0px 140px;
+}
+.banner-content{
+  padding: 0px 140px;
+  font-size: 20px;
+}
+.banner-content p{
+  font-size:15px;
+}

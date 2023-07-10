@@ -21,8 +21,9 @@ cursor: pointer;
   
 }
 .flower-pic{
-  width: 500px;
+  width: 450px;
   padding: 0px 140px;
+  padding-top: 50px;
 }
 .banner-content{
   padding: 0px 140px;

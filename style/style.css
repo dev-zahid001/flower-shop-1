@@ -23,6 +23,7 @@ border-radius: 5px;
 cursor: pointer;
 margin-top: 15px;
 }
+
 /* banner section */
 .banner{
   background-color: #fdeef1;
@@ -176,7 +177,7 @@ border-radius: 8px;
   padding: 0px 12px;
 }
 .submit{
-  background-image: url(/Image/Rectangle\ 9.png);
+  background-image: url('/Image/Rectangle\ 9.png');
   padding: 100px 0px;
   background-position:top center;
   background-size:cover;

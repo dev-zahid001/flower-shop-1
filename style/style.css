@@ -235,3 +235,51 @@ margin-bottom: 40px;
 .main-footer span{
   color: rgba(255, 255, 255, 0.4);
 }
+
+/* shop section style */
+.blog{
+  background-color: #f2dee7;
+  padding: 60px;
+  margin-bottom: 100px;
+}
+.shop-title{
+  text-align: center;
+}
+.shop-title h1{
+  font-size: 40px;
+  color: #272727;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.shop-flow{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.shop-items{
+  text-align: center;
+  width: 31%;
+  padding-bottom: 20px;
+  border-radius: 10px;
+
+}
+.shop-items img{
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.shop-items h4{
+  font-size: 16px;
+    color: #272727;
+    font-weight: 400;
+}
+.shop-items h1{
+  font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0px;
+    padding: 0px 20px;
+}
+.more-btn{
+  text-align: center;
+  margin-top: 30px;
+}

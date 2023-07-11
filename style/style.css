@@ -175,3 +175,34 @@ border-radius: 8px;
   overflow: hidden;
   padding: 0px 12px;
 }
+.submit{
+  background-image: url(/Image/Rectangle\ 9.png);
+  padding: 100px 0px;
+  background-position:top center;
+  background-size:cover;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.submit h1{
+  font-size: 40px;
+  font-weight: 900;
+  color: #272727;
+  margin-bottom: 10px;
+}
+.submit p{
+  font-size: 18px;
+ color: #272727;
+ line-height: 25px;
+ margin-bottom: 40px;
+}
+.submit form{
+  width: 55%;
+  margin: auto;
+}
+.email-input{
+  width: 79%;
+  padding: 15px 0px 15px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 5px;
+}

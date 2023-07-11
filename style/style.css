@@ -148,3 +148,30 @@ border-radius: 8px;
 .hot-deal-left h1 span{
   color: #e55473;;
 }
+.social-title{
+  text-align: center;
+  padding-top: 100px;
+}
+.social-title h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+.social-title p{
+  width: 45%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 25px;
+}
+.social-ads {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.social-item{
+  width: 25%;
+  overflow: hidden;
+  padding: 0px 12px;
+}
